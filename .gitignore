@@ -1,0 +1,48 @@
+# ignore file types and directories
+*.DS_Store
+*.pyc
+.vscode/
+**/.venv/
+**/weibo_session/
+**/chrome_profiles/
+*.png
+*.jpg
+*.jpeg
+*.avif
+*.webp
+*.avif
+*.tif
+*.svg
+*.csv
+*.pdf
+*.xlsx
+*.txt
+*.sql
+*.dump
+*.exe
+*.ndjson
+*.json
+*.pt
+*.pptx
+*.log
+*.env
+
+# do not ignore these files
+!sql_models/*.sql
+!country_code_mapping.json
+!config_example.json
+!Color Database.xlsx
+# Do not ignore JSON files in any reference_data folder, regardless of its location
+!**/reference_data/*.json
+!selected_options.json
+!perfume_scraper_settings.json
+# do not ignore JSON files starting with 'memory'
+# !memory*.json     # might not be a good idea to memorize this. better let this remain different by the different systems people are using.
+
+# do not ignore specific directories
+!Liner Python Model/
+!quantitative_team_wip/wip/Yan's Work/search_hub_working file
+!quantitative_team_wip/functional codes/Weibo scraper/00_Database
+
+# Do not ignore requirements.txt
+!requirements.txt
